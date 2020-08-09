@@ -1,3 +1,8 @@
-export const UserActionTypes = {
+const UserActionTypes = {
   SET_CURRENT_USER: "SET_CURRENT_USER",
+  GOOGLE_SIGN_IN_START: "GOOGLE_SIGN_IN_START",
+  GOOGLE_SIGN_IN_SUCCESS: "GOOGLE_SIGN_IN_SUCCESS",
+  GOOGLE_SIGN_IN_FAILURE: "GOOGLE_SIGN_IN_FAILURE",
 };
+
+export default UserActionTypes;
